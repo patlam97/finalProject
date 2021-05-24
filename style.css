@@ -1,0 +1,169 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: monospace;
+}
+
+.nav {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  justify-content: flex-end; 
+  align-items: center;
+  background: rgb(0, 0, 0);
+  box-shadow: 0 4px 8px #3498DB;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin-right: 35px;
+  font-size: 25px;;
+} 
+
+.nav-list a {
+  display: block;
+  padding: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-list a:hover {
+  background: #3498DB;
+}
+
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(white,#3498DB);
+}
+
+.aboutMe > h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: rgb(0, 195, 255);
+  margin-bottom: 0em;
+}
+
+.aboutMe > p {
+  font-size: 30px;
+  margin-top: 0em;
+  color: rgb(0, 0, 0);
+}
+
+.projectSection {
+  width: 100%;
+  background: white;
+  text-align: center;
+  padding-top: 10px;
+  background: #3498DB;
+}
+
+.projectHeader {
+  width: 55%;
+  margin: 100px auto 50px auto;
+  padding: 5px;
+  font-size: 43px;
+  font-weight: bold;
+  color: black;
+}
+
+.projectGrid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 50px;
+  grid-gap: 60px;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 35px;
+}
+
+.projectTitle {
+  font-size: 20px;
+  background: black;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  padding: 15px;
+  margin-top: 0;
+  border-radius: 10px;
+  color: white;
+}
+
+.projectImage {
+  width: 100%;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.projectTile{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contactSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(#3498DB, white);
+}
+
+.contactHeader > h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.contactLinks {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.contactDetails {
+  font-size: 25px;
+  text-shadow: 1px 1px 1px black;
+  transition: transform 0.3s ease-out;
+  margin-bottom: 50px;
+  padding: 10px;
+  text-decoration: none;
+  margin-top: 50px;
+  color: #185bc0;
+}
+
+.contactDetails:hover {
+  transform: translateY(5px);
+  color: #CB4335;
+}
+
+.email{
+  font-size: 25px;
+  text-shadow: 1px 1px 1px black;
+  margin-bottom: 50px;
+  padding: 10px;
+  text-decoration: none;
+  margin-top: 50px;
+  color: #185bc0;
+}
+
+.email:hover #appear {
+  display: block;
+}
+
+#appear {
+  display:none;
+}  
