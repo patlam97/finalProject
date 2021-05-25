@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: monospace;
+  font-family: Consolas;
 }
 
 .nav {
@@ -13,7 +13,8 @@ body {
   height: 80px;
   justify-content: flex-end; 
   align-items: center;
-  background: rgb(0, 0, 0);
+  background: #000000;
+
   box-shadow: 0 4px 8px #3498DB;
 }
 
@@ -43,20 +44,28 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(white,#3498DB);
+  background:#1b3461;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.aboutMe > h1 {
+.aboutMe > h1 > a {
   font-size: 60px;
   font-weight: bold;
-  color: rgb(0, 195, 255);
   margin-bottom: 0em;
+  color: #87AFC7;
 }
 
 .aboutMe > p {
   font-size: 30px;
   margin-top: 0em;
-  color: rgb(0, 0, 0);
+  font-family: Arial;
+}
+
+p{
+  color:#BCC6CC;
 }
 
 .projectSection {
@@ -64,16 +73,16 @@ body {
   background: white;
   text-align: center;
   padding-top: 10px;
-  background: #3498DB;
+  background:  #1b3461;
 }
 
 .projectHeader {
   width: 55%;
   margin: 100px auto 50px auto;
   padding: 5px;
-  font-size: 43px;
+  font-size: 50px;
   font-weight: bold;
-  color: black;
+  color: #87AFC7;
 }
 
 .projectGrid {
@@ -95,7 +104,7 @@ body {
   padding: 15px;
   margin-top: 0;
   border-radius: 10px;
-  color: white;
+  color: #BCC6CC;
 }
 
 .projectImage {
@@ -117,12 +126,13 @@ body {
   text-align: center;
   width: 100%;
   height: 100vh;
-  background: linear-gradient(#3498DB, white);
+  background: #1b3461;
 }
 
 .contactHeader > h2 {
   font-size: 50px;
   font-weight: bold;
+  color:#87AFC7;
   margin-bottom: 0;
 }
 
@@ -142,22 +152,22 @@ body {
   padding: 10px;
   text-decoration: none;
   margin-top: 50px;
-  color: #185bc0;
+  color: #87AFC7;
 }
 
 .contactDetails:hover {
   transform: translateY(5px);
-  color: #CB4335;
+  color: #3498DB;
 }
 
 .email{
   font-size: 25px;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 1px rgb(0, 81, 128);
   margin-bottom: 50px;
   padding: 10px;
   text-decoration: none;
   margin-top: 50px;
-  color: #185bc0;
+  color: #87AFC7;
 }
 
 .email:hover #appear {
@@ -166,4 +176,5 @@ body {
 
 #appear {
   display:none;
+  color: #3498DB;
 }  
