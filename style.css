@@ -64,6 +64,11 @@ body {
   font-family: Arial;
 }
 
+.profile {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
 p{
   color:#BCC6CC;
 }
@@ -90,7 +95,7 @@ p{
   grid-template-columns: auto auto auto;
   margin-top: 50px;
   grid-gap: 60px;
-  width: 100%;
+  width: 80%;
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 35px;
@@ -178,3 +183,34 @@ p{
   display:none;
   color: #3498DB;
 }  
+
+ input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #87AFC7;
+  padding: 20px;
+} 
